@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="bg-dark container-fluid" id="loader" style="display: none">
+        <div class="loader"></div>
+    </div>
+    <main id="main" class="light-theme">
+        <header class="header text-light back-dark">
+            <div class="mobile-menu d-block d-md-none position-fixed w-100">
+                <div class="d-flex justify-content-between align-items-center py-2 back-dark">
+                    <div class="logo position-relative w-50 flex-nowrap align-self-start ms-2">
+                        <a href="index.html">
+                            <img src="./assets/images/coollogo_com-294982707.png" alt="website logo"
+                                class="logo-image img-fluid" />
+                        </a>
+                    </div>
+                    <div class="menu-icon position-relative mx-4 my-auto">
+                        <div class="icon nav-icon-5">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <nav style="opacity: 0" class="m-auto p-3" id="mobile-nav">
+                    <ul class="menu py-2 list-unstyled text-start ps-4">
+                        <li class="px-2 my-2">
+                            <a class="menu-link" href="#home">Home</a>
+                        </li>
+                        <li class="px-2 my-2">
+                            <a class="menu-link" href="#about">About</a>
+                        </li>
+                        <li class="px-2 my-2">
+                            <a class="menu-link" href="#services">Services</a>
+                        </li>
+                        <li class="px-2 my-2">
+                            <a class="menu-link" href="#portfolio">Resume</a>
+                        </li>
+                        <li class="px-2 my-2">
+                            <a class="menu-link" href="#slider">Reviews</a>
+                        </li>
+                    </ul>
+                    <!-- header button -->
+                    <div class="header-btn-wrapper ms-4 w-auto">
+                        <a class="link-light" href="#contact">
+                            <button class="main-btn py-1">Contact Us</button>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+            <div class="container d-none d-md-block py-3">
+                <div class="header-wrapper d-flex justify-content-between align-items-center">
+                    <div class="logo w-25 position-relative">
+                        <a href="index.html">
+                            <img src="./assets/images/coollogo_com-294982707.png" alt="website logo"
+                                class="logo-image img-fluid" />
+                        </a>
+                    </div>
+                    <div class="header-menu-wrapper main-menu">
+                        <!-- nav menu -->
+                        <nav class="desktop-nav">
+                            <ul class="mb-0 list-unstyled header-menu d-flex flex-row justify-content-center menu">
+                                <li class="px-3">
+                                    <a class="menu-link" href="#home">Home</a>
+                                </li>
+                                <li class="px-3">
+                                    <a class="menu-link" href="#about">About</a>
+                                </li>
+                                <li class="px-3">
+                                    <a class="menu-link" href="#services">Services</a>
+                                </li>
+                                <li class="px-3">
+                                    <a class="menu-link" href="#portfolio">Portfolio</a>
+                                </li>
+                                <li class="px-3">
+                                    <a class="menu-link" href="#slider">Reviews</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- header button -->
+                    <div class="header-btn-wrapper" style="width: 15%">
+                        <a class="link-light" href="#contact">
+                            <button class="main-btn text-nowrap">Contact Us</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="home" class="home-banner position-relative pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-3 col-md-6">
+                        <div class="home-banner-text pt-3">
+                            <h6 class="btn-outline-secondary"> Hello </h6>
+                            <h1 class="text-primary fw-bold mb-4">I'm Samson,</h1>
+                            <h2 class="fw-bold mb-4">
+                                I am a Web designer based in Nairobi.
+                            </h2>
+                            <p>The namics of how users interact with interactive elements within a user interface flow
+                                chart based on container proportion. </p>
+                            <div class="d-flex justify-content-around align-items-center">
+                                <div class="button-33">View my portfolio</div>
+                                <button class="btn btn-outline-secondary rounded-5">Hire me</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-3 col-md-6">
+                        <div class="banner-image position-relative">
+                            <img src="./assets/images/cropped.png" alt="Banner image" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container-fluid text-light position-relative rounded-5 back-dark p-5">
+                <div class="container">
+                    <div class="services-header row justify-content-center">
+                        <div class="col-12 col-md-6">
+                            <h2 class="section-title text-start text-capitalize">My <span class="text-primary">Services</span></h2>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <p style="opacity: 0.8">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                                deserunt, perspiciatis amet maxime pariatur quasi!
+                            </p>
+                        </div>
+                        <hr class="w-100 d-block mx-auto my-4 bg-secondary rounded-3 mb-3" style="height: 3px" />
+                    </div>
+                    <div class="services-body row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card back-grey rounded-5 overflow-hidden">
+                                <div class="card-header d-flex justify-content-between align-items-center pt-4">
+                                    <h4>App Design</h4>
+                                    <span class="icon-item"><i class="fas fa-arrow-up-long"></i></span>
+                                </div>
+                                <div class="card-body p-2 text-light">
+                                    <p class="p-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
+                                        cupiditate.</p>
+                                    <img src="./assets/images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg" alt=""
+                                        class="img-fluid rounded-5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card back-grey rounded-5 overflow-hidden">
+                                <div class="card-header d-flex justify-content-between align-items-center pt-4">
+                                    <h4>Web Design</h4>
+                                    <span class="icon-item"><i class="fas fa-arrow-up-long"></i></span>
+                                </div>
+                                <div class="card-body p-2 text-light">
+                                    <p class="p-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
+                                        cupiditate.</p>
+                                    <img src="./assets/images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg" alt=""
+                                        class="img-fluid rounded-5">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card back-grey rounded-5 overflow-hidden">
+                                <div class="card-header d-flex justify-content-between align-items-center pt-4">
+                                    <h4>Landing page</h4>
+                                    <span class="icon-item"><i class="fas fa-arrow-up-long"></i></span>
+                                </div>
+                                <div class="card-body p-2 text-light">
+                                    <p class="p-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste,
+                                        cupiditate.</p>
+                                    <img src="./assets/images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg" alt=""
+                                        class="img-fluid rounded-5">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="resume" class="resume">
+            <div class="container mt-5">
+                <h2 class="section-title text-center text-capitalize">my <span>Education</span> & <span>Work
+                        experience</span></h2>
+                <div class="row mt-4 g-4">
+                    <div class="col-12 col-md-6 px-3 px-lg-5">
+                        <h3 class="text-primary">Education</h3>
+                        <hr class="hr">
+                        <ul class="list-unstyled">
+                            <li class="row">
+                                <div class="col-8">
+                                    <b>Harmony instutute</b>
+                                    <p>Bachelor in arts</p>
+                                </div>
+                                <div class="col-4"><span class="badge back-white text-dark">2013 - 2015</span></div>
+                            </li>
+                            <li class="row">
+                                <div class="col-8">
+                                    <b>Harmony instutute</b>
+                                    <p>Bachelor in arts</p>
+                                </div>
+                                <div class="col-4"><span class="badge back-white text-dark">2013 - 2015</span></div>
+                            </li>
+                            <li class="row">
+                                <div class="col-8">
+                                    <b>Harmony instutute</b>
+                                    <p>Bachelor in arts</p>
+                                </div>
+                                <div class="col-4"><span class="badge back-white text-dark">2013 - 2015</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 px-3 px-lg-5">
+                        <h3 class="text-primary">Experience</h3>
+                        <hr class="hr">
+                        <ul class="list-unstyled">
+                            <li class="row">
+                                <div class="col-8">
+                                    <b>Harmony instutute</b>
+                                    <p>Bachelor in arts</p>
+                                </div>
+                                <div class="col-4"><span class="badge back-white text-dark">2013 - 2015</span></div>
+                            </li>
+                            <li class="row">
+                                <div class="col-8">
+                                    <b>Harmony instutute</b>
+                                    <p>Bachelor in arts</p>
+                                </div>
+                                <div class="col-4"><span class="badge back-white text-dark">2013 - 2015</span></div>
+                            </li>
+                            <li class="row">
+                                <div class="col-8">
+                                    <b>Harmony instutute</b>
+                                    <p>Bachelor in arts</p>
+                                </div>
+                                <div class="col-4"><span class="badge back-white text-dark">2013 - 2015</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container-fluid rounded-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <img src="./assets/images/cropped.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-md-6 mt-4">
+                            <h3 class="section-title text-capitalize mb-2">Why you <span>Hire me</span> for your next
+                                project</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt libero laboriosam
+                                perferendis quo odio repudiandae enim consectetur. Enim aliquid, et saepe sunt nihil
+                                itaque
+                                alias!</p>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <h2>600+</h2>
+                                    <p>Projects completed</p>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <h2>70+</h2>
+                                    <p>Clients satisfied</p>
+                                </div>
+                            </div>
+                            <div class="button-33">Hire me now</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="process" class="process">
+            <div class="container">
+                <h2 class="section-title text-center text-capitalize my-5">my working <span>Process</span></h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4 w-100">
+                    <div class="col">
+                        <div
+                            class="d-flex justify-content-center text-center align-items-center flex-column p-5 position-relative">
+                            <!-- <span class="icon-item"> <svg class="icon-svg" width="150" height="50">
+                                    <use xlink:href="./assets/images/FyJ46x01.svg"></use>
+                                </svg>
+                            </span> -->
+                            <span class="icon-item"><i class="fas fa-lightbulb"></i></span>
+                            <b class="my-2">Business planning</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <svg class="custom-svg" width="150" height="50">
+                                <use xlink:href="./assets/images/fXPMGD01.svg"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="d-flex justify-content-center text-center align-items-center flex-column p-5 position-relative">
+                            <span class="icon-item"><i class="fas fa-ruler"></i></span>
+                            <b class="my-2">Design strategy</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <svg class="custom-svg" width="150" height="50">
+                                <use xlink:href="./assets/images/fXPMGD01.svg"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div
+                            class="d-flex justify-content-center text-center align-items-center flex-column p-5 position-relative">
+                            <span class="icon-item"><i class="fas fa-chart-simple"></i></span>
+                            <b class="my-2">Grow your business</b>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <div class="container-fluid rounded-5">
+                <div class="container">
+                    <div class="section-header d-flex justify-content-between align-items-center px-5 flex-wrap">
+                        <h2 class="section-title text-capitalize my-5">Let's have a look at <br><span>My portfolio</span>
+                        </h2>
+                        <div class="button-33">View All My Work</div>
+                    </div>
+                    <div class="portfolio-container position-relative w-100">
+                        <div class="slider">
+                            <div class="slide back-grey">
+                                <img src="./assets/images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg" alt="" class="img">
+                            </div>
+                            <div class="slide back-grey">
+                                <img src="./assets/images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg" alt="" class="img">
+                            </div>
+                            <div class="slide back-grey">
+                                <img src="./assets/images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg" alt="" class="img">
+                            </div>
+                            <div class="slide back-grey">
+                                <img src="./assets/images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg" alt="" class="img">
+                            </div>
+                            <!-- Add more slides as needed -->
+                        </div>
+                        <button class="prev"><i class="fas fa-arrow-left"></i></button>
+                        <button class="next"><i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title text-center text-capitalize mt-5 mb-3">Testimonials that speak to <br><span>my
+                        results</span></h2>
+                <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, quia nihil
+                    repudiandae voluptate
+                    ipsa maiores.</p>
+            </div>
+            <div class="container-fluid position-relative">
+                <div class="review-slider">
+                    <div class="slide">
+                        <div class="rate mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <b>5.1</b>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde earum quidem pariatur nemo
+                            ratione laboriosam vitae, accusamus id natus voluptatum eaque sequi esse, nesciunt iusto,
+                            magni tenetur consequuntur assumenda odit?</p>
+                        <div class="user d-flex justify-content-start align-items-center">
+                            <img width="60px" height="60px" src="./assets/images/avatar6.jpg" alt=""
+                                class="img-thumbnail rounded-circle me-3">
+                            <div class="user-info py-2">
+                                <b>Samson me</b>
+                                <p>tenetur consequuntur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="rate mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <b>5.1</b>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde earum quidem pariatur nemo
+                            ratione laboriosam vitae, accusamus id natus voluptatum eaque sequi esse, nesciunt iusto,
+                            magni tenetur consequuntur assumenda odit?</p>
+                        <div class="user d-flex justify-content-start align-items-center">
+                            <img width="60px" height="60px" src="./assets/images/avatar6.jpg" alt=""
+                                class="img-thumbnail rounded-circle me-3">
+                            <div class="user-info py-2">
+                                <b>Samson me</b>
+                                <p>tenetur consequuntur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="rate mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <b>5.1</b>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde earum quidem pariatur nemo
+                            ratione laboriosam vitae, accusamus id natus voluptatum eaque sequi esse, nesciunt iusto,
+                            magni tenetur consequuntur assumenda odit?</p>
+                        <div class="user d-flex justify-content-start align-items-center">
+                            <img width="60px" height="60px" src="./assets/images/avatar6.jpg" alt=""
+                                class="img-thumbnail rounded-circle me-3">
+                            <div class="user-info py-2">
+                                <b>Samson me</b>
+                                <p>tenetur consequuntur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="rate mb-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <b>5.1</b>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde earum quidem pariatur nemo
+                            ratione laboriosam vitae, accusamus id natus voluptatum eaque sequi esse, nesciunt iusto,
+                            magni tenetur consequuntur assumenda odit?</p>
+                        <div class="user d-flex justify-content-start align-items-center">
+                            <img width="60px" height="60px" src="./assets/images/avatar6.jpg" alt=""
+                                class="img-thumbnail rounded-circle me-3">
+                            <div class="user-info py-2">
+                                <b>Samson me</b>
+                                <p>tenetur consequuntur</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center d-none">
+                    <button class="prev2"><i class="fas fa-arrow-left"></i></button>
+                    <button class="next2"><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+        <section id="label-container" class="label-container">
+            <div class="container-fluid position-relative rounded-5 back-primary py-4 px-0 mt-4 mb-2">
+                <div class="label py-3 shadow-sm">
+                    <span class="mx-2 tex-dark">Design</span>
+                    <i class="fas fa-star text-primary"></i>
+                    <span class="mx-2 tex-dark">App design</span>
+                    <i class="fas fa-star text-primary"></i>
+                    <span class="mx-2 tex-dark">Dashboard</span>
+                    <i class="fas fa-star text-primary"></i>
+                    <span class="mx-2 tex-dark">Wireframe</span>
+                    <i class="fas fa-star text-primary"></i>
+                    <span class="mx-2 tex-dark">User reviews</span>
+                    <i class="fas fa-star text-primary"></i>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container mt-5">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <h2 class="section-title text-capitalize my-5">Let's <span>connect</span> and
+                            <br><span>collaborate</span>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, corporis?
+                        </p>
+                        <ul class="list-unstyled contacts-list p-2">
+                            <li class="my-2">
+                                <span><i class="fas fa-phone"></i></span>
+                                <b>+2547326763</b>
+                            </li>
+                            <li class="my-2">
+                                <span><i class="fas fa-envelope"></i></span>
+                                <b>example@email.com</b>
+                            </li>
+                            <li class="my-2">
+                                <span><i class="fab fa-github"></i></span>
+                                <b>sanchez365</b>
+                            </li>
+                            <li class="my-2">
+                                <span><i class="fas fa-location-dot"></i></span>
+                                <b>123 here, there street</b>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <form action="" id="messages" method="post"
+                            class="d-block rounded-5 back-white p-4 overflow-hidden mt-5">
+                            <div class="row g-4">
+                                <!-- <input type="hidden" name="date" id="date" value="" class="position-absolute"> -->
+                                <div class="col-12 col-md-6 position-relative form_cont">
+                                    <input id="first-name" name="first-name" type="text"
+                                        class="form-control home-contact-input" placeholder="Your first name *"
+                                        required />
+                                    <div class="invalid-feedback">Please enter your first name.</div>
+                                </div>
+                                <div class="col-12 col-md-6 position-relative form_cont">
+                                    <input id="last-name" name="last-name" type="text"
+                                        class="form-control home-contact-input" placeholder="Your last name *"
+                                        required />
+                                    <div class="invalid-feedback">Please enter your last name.</div>
+                                </div>
+                                <div class="col-12 col-md-6 position-relative form_cont">
+                                    <input id="email" name="email" type="email" class="form-control home-contact-input"
+                                        placeholder="Your email address *" required />
+                                    <div class="invalid-feedback">Please enter your email address.</div>
+                                </div>
+                                <div class="col-12 col-md-6 position-relative form_cont">
+                                    <input id="phone" name="phone" type="text" class="form-control home-contact-input"
+                                        placeholder="Your phone number" required />
+                                    <div class="invalid-feedback">Please enter your phone number.</div>
+                                </div>
+                                <div class="col-12 position-relative form_cont">
+                                    <input id="subject" name="subject" type="text"
+                                        class="form-control home-contact-input" placeholder="Your message subject *"
+                                        required />
+                                    <div class="invalid-feedback">Please enter your message subject.</div>
+                                </div>
+                                <div class="col-12 position-relative form_cont">
+                                    <textarea required class="form-control home-contact-input" name="message"
+                                        id="message" cols="30" rows="5" placeholder="Your message *">
+                                    </textarea>
+                                    <div class="invalid-feedback">Please enter your message.</div>
+                                </div>
+                                <div class="col-12 position-relative form_cont">
+                                    <button type="submit" class="button-33">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="blog">
+            <div class="container-fluid rounded-5 back-white mt-5">
+                <div class="container p-2">
+                    <div
+                        class="section-header d-flex justify-content-between align-items-center px-5 flex-wrap mb-4 mb-md-0">
+                        <h2 class="section-title text-capitalize my-5">From my <span>blog<br> post</span>
+                        </h2>
+                        <div class="button-33">View All Blogs</div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="blog-card">
+                                <div class="blog-image overflow-hidden rounded-4" style="height: 200px;">
+                                    <img src="./assets/images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg" alt=""
+                                        class="img-fluid">
+                                </div>
+                                <div class="p-2 blog-text">
+                                    <p class="badge bg-white my-3 text-dark p-2 rounded-4">UI/UX Design</p>
+                                    <b class="mb-2">Design anraveled: Behind the scenes of UI/UX Magic</b>
+                                    <ul class="d-flex justify-content-between align-items-center my-2 px-3">
+                                        <li>james william</li>
+                                        <li>12th Dec 2024</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="blog-card">
+                                <div class="blog-image overflow-hidden rounded-4" style="height: 200px;">
+                                    <img src="./assets/images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg" alt=""
+                                        class="img-fluid">
+                                </div>
+                                <div class="p-2 blog-text">
+                                    <p class="badge bg-white my-3 text-dark p-2 rounded-4">UI/UX Design</p>
+                                    <b class="mb-2">Design anraveled: Behind the scenes of UI/UX Magic</b>
+                                    <ul class="d-flex justify-content-between align-items-center my-2 px-3">
+                                        <li>james william</li>
+                                        <li>12th Dec 2024</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="blog-card">
+                                <div class="blog-image overflow-hidden rounded-4" style="height: 200px;">
+                                    <img src="./assets/images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg" alt=""
+                                        class="img-fluid">
+                                </div>
+                                <div class="p-2 blog-text">
+                                    <p class="badge bg-white my-3 text-dark p-2 rounded-4">UI/UX Design</p>
+                                    <b class="mb-2">Design anraveled: Behind the scenes of UI/UX Magic</b>
+                                    <ul class="d-flex justify-content-between align-items-center my-2 px-3">
+                                        <li>james william</li>
+                                        <li>12th Dec 2024</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer" class="footer">
+            <div class="container-fluid rounded-5 back-dark mt-5 text-light">
+                <div class="container">
+                    <div class="footer-header d-flex justify-content-between align-items-center px-5 py-4 flex-wrap">
+                        <h2 class="section-title text-white text-capitalize mb-4 mb-md-0">Lets <span>connect</span> there
+                        </h2>
+                        <div class="button-33">View All My Work</div>
+                    </div>
+                    <hr class="hr back-white rounded-5" style="height: 3px;">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="p-2">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="./assets/images/coollogo_com-294982707.png" alt="website logo"
+                                            class="logo-image img-fluid" />
+                                    </a>
+                                </div>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident voluptates unde
+                                    alias animi iure, obcaecati fugit esse magni nihil dolorum?
+                                </p>
+                                <ul class="list-unstyled d-flex justify-content-around align-items-center px-4">
+                                    <li><i class="fab fa-github"></i></li>
+                                    <li><i class="fab fa-facebook-f"></i></li>
+                                    <li><i class="fab fa-twitter"></i></li>
+                                    <li><i class="fab fa-instagram"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col d-flex justify-content-around align-items-center">
+                            <ul class="list-unstyled">
+                                <li class="text-primary fw-bold mb-2">Navigation</li>
+                                <li>consectetur</li>
+                                <li>consectetur</li>
+                                <li>consectetur</li>
+                                <li>consectetur</li>
+                                <li>consectetur</li>
+                            </ul>
+                            <ul class="list-unstyled">
+                                <li class="text-primary fw-bold mb-2">Contacts</li>
+                                <li>consectetur</li>
+                                <li>consectetur</li>
+                                <li>consectetur</li>
+                                <li>consectetur</li>
+                                <li>consectetur</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <div class="mt-4 px-2">
+                                <b class="text-primary">Get the latest information</b>
+                                <form action="" class="d-flex my-4">
+                                    <input type="email" class="form-control" placeholder="Your email address *" required>
+                                    <button type="submit" class="btn btn-success">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hr back-white rounded-5" style="height: 3px;">
+                    <div class="d-flex justify-content-around align-items-center flex-wrap">
+                        <p>Copyright @ 2023 <span class="text-primary">Samson</span>. Terms and conditions apply</p>
+                        <p>User terms and conditions | policy</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+<script src="./assets/js/index.js"></script>
+
+</html>
